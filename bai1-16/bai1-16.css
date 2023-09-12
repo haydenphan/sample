@@ -1,0 +1,71 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+header {
+  font-size: 72px;
+  text-align: center;
+}
+
+#question-mark, #question-man {
+  width: 100px;
+}
+
+.title-color, .name-part {
+  color: rgb(45, 100, 155);
+  font-weight: bold;
+}
+
+.name-part {
+  font-size: 18px;
+}
+
+ul {
+  list-style: circle;
+}
+
+#trau-cau, #dinner, #cigarette, #vegetable {
+  width: 100px;
+}
+
+#food, #music, #guitar {
+  width: 180px;
+}
+
+.content-font {
+  font-size: 18px;
+}
+
+.header-part {
+  background-color: rgb(45, 100, 155);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+iframe {
+  border: none;
+}
+
+.left {
+  width: 15%;
+  vertical-align: top;
+}
+
+.iframe-left {
+  height: 300px;
+}
+
+.right {
+  width: 85%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5px;
+  justify-self: start;
+  margin-top: 10px;
+}
