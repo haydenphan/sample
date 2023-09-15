@@ -92,13 +92,17 @@
       background-image: linear-gradient(to bottom, #3aabfb, #174060);
     }
 
-    fieldset {
+    .fieldset1, .fieldset2 {
       padding: 0px;
       display: flex;
       justify-content: right;
       width: 500px;
       border-radius: 5px;
       border: solid rgba(128, 128, 128, 0.466) 1px;
+    }
+
+    .fieldset2 {
+      width: 700px;
     }
 
     legend {
@@ -112,7 +116,7 @@
 
     .table1, .table2 {
       border-collapse: collapse;
-      width: 300px;
+      width: 500px;
       border: solid rgba(128, 128, 128, 0.319) 1px;
     }
 
@@ -130,7 +134,7 @@
 
     
     .table2 {
-      width: 300px;
+      width: 700px;
     }
 
     .important-notice {
@@ -199,7 +203,7 @@
   </header>
 
   <div id="main">
-    <fieldset style="margin-right: 100px;">
+    <fieldset class="fieldset1" style="margin-right: 100px;">
       <legend>
         <div class="news-box">
           <p>News</p>
@@ -302,7 +306,7 @@
     </fieldset>
 
 
-    <fieldset>
+    <fieldset class="fieldset2">
       <legend>
         <div class="academic-information">
           <p style="margin-bottom: 0px;">Academic Information</p>
