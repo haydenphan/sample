@@ -1,0 +1,73 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo {
+  width: 15vw;
+}
+
+#logo-container, footer, #form-container, #user-pass-container {
+  display: flex;
+  justify-content: center;
+}
+
+#user-pass-container {
+  flex-direction: column;
+}
+
+.author {
+  text-align: center;
+}
+
+#team {
+  width: 400px;
+  margin-right: 30px;
+}
+
+fieldset {
+  border: none;
+  width: 500px;
+  font-size: 12pt;
+  color: rgb(184, 6, 6) ;
+}
+
+legend {
+  font-size: 16pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input {
+  width: 490px;
+  height: 30px;
+}
+
+#form-button {
+  height: 30px;
+  font-size: 18px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#form-button:hover {
+  background-color: #1d7e34;
+}
+
+#aptech-button {
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 300px;
+}
+
+#aptech-button:hover {
+  background-color: #127e8f;
+}
+
+.aptech-link {
+  text-decoration: none;
+  color: #007bff;
+}
