@@ -6,7 +6,7 @@ body {
   width: 15vw;
 }
 
-#logo-container, footer, #form-container, #user-pass-container, #all, #team-img {
+#logo-container, footer, #form-container, #user-pass-container, #all, #team-img, fieldset {
   display: flex;
   justify-content: center;
 }
@@ -38,7 +38,7 @@ legend {
 }
 
 .input {
-  width: 490px;
+  width: 40vw;
   height: 30px;
 }
 
