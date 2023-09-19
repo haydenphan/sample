@@ -6,7 +6,7 @@ body {
   width: 15vw;
 }
 
-#logo-container, footer, #form-container, #user-pass-container {
+#logo-container, footer, #form-container, #user-pass-container, #all, #team-img {
   display: flex;
   justify-content: center;
 }
@@ -70,4 +70,14 @@ legend {
 .aptech-link {
   text-decoration: none;
   color: #007bff;
+}
+
+#form-cotainer {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  #form-container {
+    flex-direction: column;
+  }
 }
