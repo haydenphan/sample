@@ -26,14 +26,15 @@
           <div id="user-pass-container">
             <div>
               <p style="margin: 10px 0px 10px 0px; font-weight: bold;">Username:</p>
-              <input class="input" type="text" placeholder="Enter Username">
+              <input id="user-name" class="input" type="text" placeholder="Enter Username">
             </div>
             <div>
               <p style="margin: 10px 0px 10px 0px; font-weight: bold;">Password:</p>
-              <input class="input" type="password" placeholder="Enter Password">
+              <input id="password" class="input" type="password" placeholder="Enter Password">
             </div>
             <br>
-            <button id="form-button">Login System</button>
+            <button id="form-button"  onclick="validRegister()">Login System</button>
+            <p id="display"></p>
           </div>
           
         </fieldset>
@@ -50,6 +51,8 @@
     </div>
   </footer>
 
+  <script src="script.js">
+  </script>
 
 </body>
 
