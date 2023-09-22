@@ -1,0 +1,233 @@
+body {
+  background-image: linear-gradient(to right, white, #a3e0fd5d);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#theme-img {
+  width: 70vw;
+  height: 50vh;
+}
+
+#theme-img-container {
+  background-image: url('../images/theme.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 90px;
+  padding: 100px 0px 100px 0px;
+}
+
+#vn-main {
+  height: 1200px;
+}
+
+nav {
+  overflow: hidden;
+}
+
+#vn-title {
+  font-size: 30px;
+  padding: 50px 0px 30px 150px;
+  font-weight: bold;
+}
+
+#vn-list {
+  padding: 0px 30px 50px 100px;
+  margin-left: 50px;
+}
+
+#vn-list > ul {
+  cursor: pointer;
+}
+
+#vn-list > ul > li:hover {
+  text-decoration: underline;
+}
+
+#vn-div {
+  display: grid;
+  grid-template-columns: 30vw 60vw;
+}
+
+#beautyOfBeach-container, #beautyOfBeach-img-container, #theme-img-container, #beautyOfBeach-p-container, #articles-container, #yt-container, #articles-fieldset-container, .problems-p, .problems-p > .problems-img, #beautyOfBeach-container2, #beautyOfBeach-img-container2, #beautyOfBeach-p-container2 {
+  display: flex;
+  justify-content: center;
+}
+
+#overview {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0px 0px 0px 150px;
+  margin-bottom: 0px;
+  background-image: radial-gradient(circle, rgba(109,185,209,1) 0%, rgba(129,205,228,1) 27%, rgba(222,222,222,1) 100%);
+}
+
+#beautyOfBeach-container {
+  background-image: radial-gradient(circle, rgba(109,185,209,1) 0%, rgba(129,205,228,1) 27%, rgba(222,222,222,1) 100%);
+  color: rgb(0, 0, 0);
+  padding: 50px;
+}
+
+#beautyOfBeach-container2 {
+  background-image: linear-gradient(305deg, rgba(201,210,230,1) 0%, rgba(70,172,205,1) 62%, rgba(73,179,211,1) 68%, rgba(74,181,213,1) 74%, rgba(128,122,122,1) 100%);
+  color: black;
+  padding-bottom: 80px;
+}
+
+#beautyOfBeach-p {
+  padding: 80px 80px 80px 150px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+} 
+
+#beautyOfBeach-p2 {
+  padding: 80px 200px 0px 0px;
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#beautyOfBeach-img {
+  width: 50vw;
+  height: 50vh;
+  padding: 80px 200px 0px 0px;
+}
+
+#beautyOfBeach-img2 {
+  width: 50vw;
+  height: 50vh;
+  padding: 80px 80px 80px 150px;
+}
+
+@media (max-width: 1000px) {
+  #beautyOfBeach-container {
+    flex-direction: column;
+  }
+  #beautyOfBeach-container2 {
+    flex-direction: column-reverse;
+  }
+  #beautyOfBeach-img, #beautyOfBeach-img2 {
+    padding: 0px;
+    margin-bottom: 80px;
+    width: 60vw;
+    height: 250px;
+  }
+
+  #beautyOfBeach-p {
+    text-align: center;
+    padding-left: 80px;
+  }
+
+  #beautyOfBeach-p2 {
+    text-align: center;
+    padding-left: 200px;
+    padding-bottom: 80px;
+  }
+  .custom-bg {
+    font-size: 18px;
+  }
+  .nav-item {
+    padding-left: 10vw;
+  }
+
+  #articles-container {
+    flex-direction: column-reverse;
+  }
+
+  fieldset {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .problems-p {
+    flex-direction: column;
+  }
+  #vn-div {
+    grid-template-columns: 20vw 70vw;
+  }
+}
+
+#problem-main-container {
+  padding: 30px 0px 30px 0px;
+  margin-bottom: 50px;
+}
+
+.problems-p {
+  padding: 50px;
+}
+
+.problems-p > .problems-img > img {
+  width: 40vw;
+}
+
+.problems-p > p {
+  padding: 0px 100px 0px 100px;
+}
+
+.problems-title {
+  font-size: 30px;
+  padding: 0px 0px 0px 150px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+fieldset {
+  margin: 30px;
+}
+
+#yt-container {
+  margin: 30px;
+}
+
+.carouselcaption{
+  position:absolute;
+  right:15%;
+  bottom:1.25rem;
+  left:15%;
+  padding-top:1.25rem;
+  padding-bottom:1.25rem;
+  text-align:center
+}
+
+.footer-content {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(221, 206, 206, 0.342);
+}
+
+#contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-part {
+  text-align: left;
+  padding: 10px 50px 10px 50px;
+  margin: 0vw 5vw 0vw 5vw;
+}
+
+#nhatrang-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#nhatrang-p-container, #nhatrang-img {
+  padding: 0px 150px 0px 150px;
+}
+
+#nhatrang-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+

@@ -1,0 +1,14 @@
+.custom-bg {
+  background-color: rgb(0, 0, 0);
+  height: 80px;
+  font-size: 25px;
+}
+
+.navbar-expand-sm-c {
+  flex-wrap:nowrap;
+  justify-content: center;
+}
+
+.nav-item {
+  padding-left: 15vw;
+}
